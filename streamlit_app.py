@@ -118,3 +118,4 @@ if st.button("Run Transcript Evaluation", type="primary"):
             except Exception as e:
                 st.error(f"An unexpected system exception occurred: {e}")
                 st.info("Check if your API key is correct and valid for the selected model architecture.")
+streamlit run app.py
